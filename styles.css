@@ -1,0 +1,29 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#222;background:#fafafa}
+.container{max-width:980px;margin:0 auto;padding:20px}
+.site-header{background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.06);position:sticky;top:0;z-index:10}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between}
+.brand{font-weight:700;text-decoration:none;color:#111;font-size:1.1rem;letter-spacing:.5px}
+.nav a{margin-left:16px;text-decoration:none;color:#333}
+.nav a:hover{text-decoration:underline}
+.hero{display:grid;gap:20px;grid-template-columns:1.2fr 1fr;align-items:center;margin:10px 0 28px}
+.hero img{width:100%;height:auto;border-radius:14px;box-shadow:0 10px 24px rgba(0,0,0,.08)}
+.tag{display:inline-block;padding:6px 10px;border-radius:999px;background:#f1f1f1;font-size:.85rem;color:#555;margin-bottom:8px}
+.title-xl{font-size:2rem;margin:6px 0 10px}
+.sub{color:#444;margin-top:0}
+.details{font-size:.95rem;color:#555;margin-top:8px}
+.cta{display:flex;gap:12px;margin-top:12px}
+.button{display:inline-block;padding:10px 14px;border-radius:10px;border:1px solid #e5e5e5;text-decoration:none;color:#111;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.04)}
+.button:hover{transform:translateY(-1px)}
+.section-title{margin-top:28px;margin-bottom:12px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 6px 16px rgba(0,0,0,.06)}
+.card img{display:block;width:100%;height:auto}
+.card .meta{padding:12px 14px}
+.card .note{padding:0 14px 14px;font-size:0.9rem;color:#555}
+.bio-hero{display:grid;gap:18px;grid-template-columns:1fr 1.4fr;align-items:start;margin-bottom:16px}
+.bio-hero img{width:100%;height:auto;border-radius:12px;box-shadow:0 8px 18px rgba(0,0,0,.06)}
+@media (max-width:800px){.bio-hero{grid-template-columns:1fr} .hero{grid-template-columns:1fr}}
+.site-footer{padding:28px 0;color:#666;font-size:.9rem}
+.lead{font-size:1.05rem;color:#333}
